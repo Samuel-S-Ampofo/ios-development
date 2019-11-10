@@ -91,5 +91,6 @@ playerUsername = "Donald Trump"
 print(playerUsername!)
 
 
+// 2d arrays
 
-
+question = arraay[2][2]
