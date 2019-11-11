@@ -91,6 +91,56 @@ playerUsername = "Donald Trump"
 print(playerUsername!)
 
 
-// 2d arrays
+// two D arrays
+var myArray = [["james","Gardener"],["samuel", "Ampofo"]]
 
-question = arraay[2][2]
+// structures help creta custome data types
+struct Campus {
+    let  name :String
+    var citizens:[String]
+    var resources:[String:Int]
+    // function in structure are methods
+    
+    init(name:String, citizens:[String], resources:[String:Int]){
+        self.name = name
+        self.citizens = citizens
+        self.resources = resources
+    }
+    
+    
+    func fortify(){
+        print("Defences increased !!")
+    }
+}
+
+var kanyeCampus = Campus(name:" Yezzy campus", citizens: ["kim West", "kanye West","north West"], resources: ["producer" : 20, "designer ":14])
+
+//var myNeoscampus = Neoscampus()
+//print("\(myNeoscampus.name) has \(myNeoscampus.citizens[1]) made up of \(myNeoscampus.resources["java"]!) java programers")
+//myNeoscampus.fortify()
+
+
+kanyeCampus.citizens.append("blue Ivy")
+print(kanyeCampus.citizens)
+
+
+// model view controller
+//desing parttern mvc
+
+// function with outputs
+func greeting3(name:String)-> Bool{
+    if name == "Samuel" || name == "Ampofo"{
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+var doorShouldOpen = greeting3(name: "Samuel")
+print(doorShouldOpen)
+
+
+
+
+
