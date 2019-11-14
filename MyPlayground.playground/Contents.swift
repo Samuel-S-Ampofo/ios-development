@@ -130,7 +130,7 @@ print(kanyeCampus.citizens)
 //desing parttern mvc
 
 // function with outputs
-func greeting3(name:String)-> Bool{
+func greeting3(_ name:String)-> Bool{
     if name == "Samuel" || name == "Ampofo"{
         return true
     }
@@ -139,7 +139,7 @@ func greeting3(name:String)-> Bool{
     }
 }
 
-var doorShouldOpen = greeting3(name: "Samuel")
+var doorShouldOpen = greeting3("Samuel")
 print(doorShouldOpen)
 
 
