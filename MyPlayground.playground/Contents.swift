@@ -1,8 +1,8 @@
 import UIKit
-
-// swift deep dives
-// naming conventions camelCasing and snake_casing kebab-casing
-
+//
+//// swift deep dives
+//// naming conventions camelCasing and snake_casing kebab-casing
+//
 //Variables
 var str = "Hello, playground"
 print(str)
@@ -17,7 +17,7 @@ let myName = "samuel Sampene Ampofo"
 
 let pi = 3.14159
 print( myName + " \(2019 - 1985)  years old")
-
+//
 // basic data types
 // string
 // Int
@@ -61,7 +61,7 @@ loveClculator()
 // Switch statmenets
 
 func loversClculators(){
-    
+
     switch loveScore {
         case 81...100 :
             print("you love each other like kanye loves kanye")
@@ -102,14 +102,14 @@ struct Campus {
     var citizens:[String]
     var resources:[String:Int]
     // function in structure are methods
-    
+
     init(name:String, citizens:[String], resources:[String:Int]){
         self.name = name
         self.citizens = citizens
         self.resources = resources
     }
-    
-    
+
+
     func fortify(){
         print("Defences increased !!")
     }
@@ -144,5 +144,34 @@ print(doorShouldOpen)
 
 
 
+//Classed inheritance using View case study
+
+
+import UIKit
+class SecondViewController: UIViewController {
+    
+    
+    var bmiValue = "0.0"
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.backgroundColor = .red
+        
+        let label = UILabel()
+        label.text = bmiValue
+        label.frame = CGRect(x: 0, y: 0, width: 150, height: 100)
+        view.addSubview(label)
+        
+    }
+}
+
+
+// code for transfer from mainView to secondeView
+
+let secondVC = SecondViewController()
+//secondVC.bmiValue = String(format:"%.01f", bmi)
+//
+//self.present(secondVC, animated: true, completion: nil)
 
 
