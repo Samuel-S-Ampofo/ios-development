@@ -65,7 +65,7 @@ func loversClculators(){
     switch loveScore {
         case 81...100 :
             print("you love each other like kanye loves kanye")
-        case 41...81:
+        case 41..<81:
             print("you go together like coke and mentos")
         case ...40:
             print("you will be alone forever")
@@ -96,7 +96,7 @@ print(playerUsername!)
 // two D arrays
 var myArray = [["james","Gardener"],["samuel", "Ampofo"]]
 
-// structures help creta custome data types
+// structures help creata custome data types
 struct Campus {
     let  name :String
     var citizens:[String]
