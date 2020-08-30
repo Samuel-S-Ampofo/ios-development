@@ -1,0 +1,11 @@
+
+Showing Recent Messages
+
+Build target SeeFoodApp of project SeeFoodApp with configuration Debug
+
+ProcessInfoPlistFile /Users/SHMUEL/Library/Developer/Xcode/DerivedData/SeeFoodApp-ejudzljwcqsonsgouodqyboitipj/Build/Products/Debug-iphoneos/SeeFoodApp.app/Info.plist /Users/SHMUEL/Documents/iOs/Ioscodecamp/hotDogApp/SeeFoodApp/SeeFoodApp/Info.plist (in target 'SeeFoodApp' from project 'SeeFoodApp')
+    cd /Users/SHMUEL/Documents/iOs/Ioscodecamp/hotDogApp/SeeFoodApp
+    builtin-infoPlistUtility /Users/SHMUEL/Documents/iOs/Ioscodecamp/hotDogApp/SeeFoodApp/SeeFoodApp/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/SHMUEL/Library/Developer/Xcode/DerivedData/SeeFoodApp-ejudzljwcqsonsgouodqyboitipj/Build/Products/Debug-iphoneos/SeeFoodApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/SHMUEL/Library/Developer/Xcode/DerivedData/SeeFoodApp-ejudzljwcqsonsgouodqyboitipj/Build/Intermediates.noindex/SeeFoodApp.build/Debug-iphoneos/SeeFoodApp.build/Base.lproj/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/SHMUEL/Library/Developer/Xcode/DerivedData/SeeFoodApp-ejudzljwcqsonsgouodqyboitipj/Build/Intermediates.noindex/SeeFoodApp.build/Debug-iphoneos/SeeFoodApp.build/Base.lproj/Main-SBPartialInfo.plist -additionalcontentfile /Users/SHMUEL/Library/Developer/Xcode/DerivedData/SeeFoodApp-ejudzljwcqsonsgouodqyboitipj/Build/Intermediates.noindex/SeeFoodApp.build/Debug-iphoneos/SeeFoodApp.build/assetcatalog_generated_info.plist -additionalcontentfile /Users/SHMUEL/Library/Developer/Xcode/DerivedData/SeeFoodApp-ejudzljwcqsonsgouodqyboitipj/Build/Intermediates.noindex/SeeFoodApp.build/Debug-iphoneos/SeeFoodApp.build/Inceptionv3-CoreMLPartialInfo.plist -requiredArchitecture arm64 -o /Users/SHMUEL/Library/Developer/Xcode/DerivedData/SeeFoodApp-ejudzljwcqsonsgouodqyboitipj/Build/Products/Debug-iphoneos/SeeFoodApp.app/Info.plist
+
+error: Build input file cannot be found: '/Users/SHMUEL/Documents/iOs/Ioscodecamp/hotDogApp/SeeFoodApp/SeeFoodApp/Info.plist' (in target 'SeeFoodApp' from project 'SeeFoodApp')
+
